@@ -8,6 +8,7 @@ import AppBar from './AppBarComponent/AppBar';
 import Footer from './FooterComponent/Footer';
 import UpdateStudent from './ShowStudentsCom/UpdateStudent';
 import { Search } from './ShowStudentsCom/Search';
+import Homepage from './ShowStudentsCom/Homepage';
 //let studImpl=new StudentImpl();
 
 function App() {
@@ -18,6 +19,7 @@ return (
       </header>
      
       <Routes>
+      <Route path="/" element={<Homepage/>}></Route>
         <Route path="/students/showall" element={<ShowStudents/>}></Route>
         <Route path="/students/add" element={<AddStudent/>}></Route>
         <Route path="/students/delete/:id" element={<DeleteStudent/>}></Route>
