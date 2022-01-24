@@ -1,0 +1,13 @@
+.navbar{
+    background-color: black;
+    color: white;
+}
+
+.navbar ol li{
+    display: inline-block;
+    padding: 40px;
+}
+
+.navbar ol li:hover{
+    background-color: brown;
+}
