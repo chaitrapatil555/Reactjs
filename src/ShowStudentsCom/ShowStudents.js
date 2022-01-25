@@ -42,8 +42,8 @@ export default function ShowStudents(){
     return(
         <>
         <div>
-                <label>Enter id:</label>
-                <input type="number" onChange={setId}></input>
+                <label>Enter here:</label>
+                <input type="text" onChange={setId}></input>
             </div>
             
             <Button startIcon={<SearchSharp/>}><NavLink to={`/students/search/${id}`}>Search</NavLink></Button>
